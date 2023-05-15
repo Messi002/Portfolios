@@ -3,9 +3,9 @@ import './About'
 
 const About = () => {
   return (
-    <div>
+    <section id='about'>
       about
-    </div>
+    </section>
   )
 }
 

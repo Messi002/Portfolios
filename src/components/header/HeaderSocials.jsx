@@ -6,6 +6,9 @@ import {FiDribbble} from 'react-icons/fi'
 import {FaFacebookF} from 'react-icons/fa'
 import {CgTwitter} from 'react-icons/cg'
 
+// Local:            http://localhost:3001
+// On Your Network:  http://192.168.1.209:3001
+//  192.168.137.1
 
 const HeaderSocials = () => {
   return (

@@ -1,7 +1,8 @@
 header{
-    height: 124vh;
-    padding-top: 7rem;
+    height: 130vh;
+    padding-top: 2rem;
     overflow: hidden;
+    
 }
 
 .header__container{
@@ -12,7 +13,7 @@ header{
 
 /* CTA */
 .cta{
-    margin-top: 2.5rem;
+    margin-top: 0.8rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -43,10 +44,10 @@ bottom: 3rem;
     height: 35rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 1.3rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.3rem 1.5rem 0rem 1.5rem;
 
 }
 
@@ -60,19 +61,26 @@ bottom: 3rem;
     font-size: 0.9rem;
 }
 
-@media screen and(max-width:1024px) {
+@media screen and(min-width:1024px) {
     header{
     height:68vh
     }
 }
 
 
-@media screen and(max-width:600px) {
-    header{
-    height:100vh
+/* @media screen and(min-width:600px) { */
+    @media screen and (max-width: 600px){
+
+        header{
+    height:100vh;
+    /* background-color: green; */
     }
-    .header__social, .scroll__down{
-    display: none;
+    .header__socials, .scroll__down{
+    display: none !important;
     }
+    .me{
+        height: 35rem !important;
+    }
+
     }
     
