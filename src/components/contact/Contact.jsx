@@ -8,19 +8,7 @@ import {BsWhatsapp} from 'react-icons/bs'
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_1euh7qj', 'template_8kehksf', form.current, 'vo7OEzUI7novtnb5w')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-
-
-      e.target.reset();
-  };
+ 
   return (
     <section id='contact'>
      <h5>Get In Touch</h5>
