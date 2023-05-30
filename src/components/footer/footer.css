@@ -30,6 +30,18 @@ margin: 0 auto 3rem;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
+}
+
+.footer__socials a:hover{
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.footer__copyright{
+    margin-bottom: 4rem;
+    color: var(--color-bg);
+}
 
 
 /*====MEDIA QUERIES (MEDIUM DEVICES)======*/
