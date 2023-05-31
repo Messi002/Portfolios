@@ -39,7 +39,11 @@ const Contact = () => {
 
           {/* CONTACT OPTION: MESSENGER */}
           <article className="contact__option">
-        
+          <RiMessageLine className='contact__option-icon'/>
+          <h4>Messenger</h4>
+          <h5>Austin Gareth</h5>
+          <a href="http://m.me/austin.gareth">Send a Message</a>
+        </article>
 
           {/* CONTACT OPTION: WHATSAPP */}
           <article className="contact__option">
